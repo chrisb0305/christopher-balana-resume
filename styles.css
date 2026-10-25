@@ -112,7 +112,7 @@ em { font-style: normal; }
 .tinted-section { background: linear-gradient(115deg, rgba(184, 220, 245, 0.62), rgba(255, 255, 255, 0.42) 48%, rgba(243, 170, 160, 0.5)); max-width: none; padding-left: max(28px, calc((100vw - var(--max-width)) / 2 + 28px)); padding-right: max(28px, calc((100vw - var(--max-width)) / 2 + 28px)); }
 .about-content .large-copy { font-family: var(--display); font-size: clamp(1.8rem, 3vw, 3rem); letter-spacing: -0.06em; line-height: 1.08; margin: 0 0 30px; max-width: 680px; }
 #about .section-heading h2 em { background: linear-gradient(100deg, var(--accent-blue), var(--accent-coral)); -webkit-background-clip: text; background-clip: text; color: transparent; }
-#experience .section-heading h2 em, #projects .section-heading h2 em, #contact h2 em { background: linear-gradient(100deg, var(--accent-blue), var(--accent-coral)); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block; line-height: 1.05; padding-bottom: 0.04em; }
+#experience .section-heading h2 em, #projects .section-heading h2 em, #contact h2 em { background: linear-gradient(100deg, var(--accent-blue), var(--accent-coral)); -webkit-background-clip: text; background-clip: text; color: transparent; display: inline-block; line-height: 1.12; padding-bottom: 0.12em; }
 .about-details { display: grid; gap: 34px; grid-template-columns: repeat(2, minmax(0, 1fr)); margin-top: 52px; }
 .about-detail { border-top: 1px solid var(--line); padding-top: 18px; }
 .about-detail h3 { font-family: var(--display); font-size: 1.25rem; letter-spacing: -0.05em; margin: 0 0 10px; }
