@@ -126,6 +126,16 @@ projectModal.addEventListener('click', (event) => {
   if (event.target === projectModal) closeProjectModal();
 });
 
+// ==================== Contact Form ====================
+const contactForm = document.querySelector('#contact-form');
+const contactStatus = document.querySelector('#contact-status');
+
+contactForm.addEventListener('submit', (event) => {
+  event.preventDefault();
+  contactStatus.textContent = 'Thanks! Your message has been sent.';
+  contactForm.reset();
+});
+
 // ==================== Scroll Reveal ====================
 const revealElements = document.querySelectorAll(
   '.reveal, .content-section > *, .about-detail, .timeline-item, .project-card, .contact-section > *'
